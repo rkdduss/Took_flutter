@@ -12,6 +12,17 @@ class Mycomment extends StatefulWidget {
 class _MycommentState extends State<Mycomment> {
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return Scaffold(
+      appBar: AppBar(
+        title: Text('mycomment'),
+      ),
+      body: Center(
+        child: Column(
+          children: [
+            Text('dsvksdvjksd')
+          ],
+        ),
+      ),
+    );
   }
 }
